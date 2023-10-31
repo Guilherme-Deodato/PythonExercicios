@@ -3,7 +3,7 @@
 
 from math import hypot
 
-cat_oposto = int(input('Digite o valor do cateto oposto: '))
-cat_adjacente = int(input('Digite o valor do cateto adjacente: '))
+cat_oposto = float(input('Digite o valor do cateto oposto: '))
+cat_adjacente = float(input('Digite o valor do cateto adjacente: '))
 
-print(f'O valor da hipotenusa é {hypot(cat_oposto, cat_adjacente)}')
+print(f'O valor da hipotenusa é {hypot(cat_oposto, cat_adjacente) :.2f}')
