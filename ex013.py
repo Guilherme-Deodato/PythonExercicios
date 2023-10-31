@@ -3,4 +3,4 @@
 salario = float(input('Digite o seu salário: '))
 aumento = salario + (salario / 100 * 15)
 
-print(f'Parabéns, seu novo salário é {aumento}!')
+print(f'Parabéns, seu novo salário é {aumento :.2f}!')
